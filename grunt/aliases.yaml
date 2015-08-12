@@ -1,0 +1,23 @@
+default:
+  # - 'githooks'
+  # - 'phplint'
+  # - 'newer:imagemin'
+  # - 'shell:init'
+  # - 'sync'
+  # - 'sass'
+  - 'concat'
+  - 'watch'
+
+init:
+  # - 'shell:npm_init'
+  # - 'sync'
+
+serve:
+  # - 'sync:js'
+  # - 'sass'
+  - 'concat'
+  # - 'uglify'
+  - 'watch'
+
+deploy:
+  - 'shell:deploy'

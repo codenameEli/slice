@@ -1,0 +1,1 @@
+var slice = angular.module( "Slice", [] );
