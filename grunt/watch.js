@@ -1,13 +1,13 @@
 module.exports = {
 
     js: {
-       files: [
-           '<%= paths.js.base %>/**/*.js',
-       ],
-       tasks: [ 'concat' ],
-       options: {
-           livereload: true,
-       },
+        files: [
+            '<%= paths.js.base %>/**/*.js',
+        ],
+        tasks: [ 'concat' ],
+        options: {
+            livereload: true,
+        },
     },
 
 	// theme: {

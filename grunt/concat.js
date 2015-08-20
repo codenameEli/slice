@@ -5,8 +5,9 @@ module.exports = {
 			sourceMap: true,
 		},
 		src: [
+            '<%= paths.js.base %>/app.js',
 			'<%= paths.js.base %>/**/*.js',
 		],
-		dest: '<%= paths.js.base %>/javascript.min.js'
+		dest: '<%= paths.src.base %>/slice.min.js'
 	}
 };

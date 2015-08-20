@@ -15,9 +15,9 @@ init:
 serve:
   # - 'sync:js'
   # - 'sass'
-  - 'concat'
+  # - 'concat'
   # - 'uglify'
-  - 'watch'
+  # - 'watch'
 
 deploy:
-  - 'shell:deploy'
+  # - 'shell:deploy'
