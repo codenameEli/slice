@@ -1,5 +1,5 @@
 slice = angular.module( "Slice", [] );
 
 slice.constant('sliceConfig', {
-	template: '/src/js/directives'
+	template: 'wp-content/plugins/slice/src/js/templates'
 });
