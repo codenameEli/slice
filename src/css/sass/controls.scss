@@ -1,0 +1,101 @@
+$fontFamily: "Roboto";
+
+div[ng-module="Slice"] {
+	font-family: $fontFamily;
+}
+
+.controls-container {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 250px;
+	z-index: 999;
+	height: auto;
+	transition: height 1s ease;
+	&.hidden {
+		height: 5%;
+	}
+
+	.slice-control-toolbar {
+		background: #d5d5d5;
+		color: #FFF;
+		position: relative;
+		font-size: 16px;
+		height: 32px;
+		&:hover {
+			.edit-button {
+				opacity: 1;
+			}
+		}
+
+		input {
+			font-family: $fontFamily;
+			background: none;
+			border: 0;
+			border-bottom: 1px solid #FFF;
+			color: #FFF;
+			font-size: 16px;
+			&:active,
+			&:focus {
+				outline: 0;
+			}
+		}
+	}
+
+
+	.slice-control {
+		background: #FFF;
+		border: 1px solid #d1cfcf;
+		padding: 5px;
+		position: relative;
+		&:hover {
+			.edit-button {
+				opacity: 1;
+			}
+		}
+	}
+
+	.action-button-container {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+	}
+
+	.edit-button {
+		opacity: 0;
+		cursor: pointer;
+		transition: opacity .2s ease-in-out;
+	}
+
+	.check-status {
+		display: inline-block;
+		background: #FFF;
+		border-radius: 100%;
+		width: 20px;
+		height: 20px;
+		margin: 5px 0 0 5px;
+	}
+
+	.slice-controls-container.active {
+
+		.slice-control-toolbar {
+			background: #f49400;
+			color: #FFF;
+		}
+
+		.check-status {
+			background: #ffc100;
+		}
+	}
+}
+
+.slice-container {
+	display: none;
+	&.active {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: .5;
+	}
+}

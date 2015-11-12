@@ -1,0 +1,14 @@
+{
+    "name": "eli/slice",
+    "description": "TogglePSD in Angular using LocalStorage",
+    "authors": [
+        {
+            "name": "Eli Dalbey",
+            "email": "eli@launchdm.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"Slice\\": "lib"}
+    }
+}

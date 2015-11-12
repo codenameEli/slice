@@ -19,6 +19,10 @@
             base: '<%= paths.src.base %>/js',
           },
 
+          css: {
+            base: '<%= paths.src.base %>/css',
+          },
+
   				// dest: { // Production paths
   				// 	base: 'src',
   				// 	theme: {
