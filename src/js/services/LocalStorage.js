@@ -1,6 +1,6 @@
-slice.service( "LocalStorageService", LocalStorageService );
+slice.service( "LocalStorage", LocalStorage );
 
-function LocalStorageService( $rootScope, $q ) {
+function LocalStorage( $rootScope, $q ) {
 
 	var self = this;
 
