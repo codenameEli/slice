@@ -108,6 +108,6 @@ class Slices {
 
 		$slice_srcs = scandir( './slices' );
 
-		return array_slice( $slice_srcs, 2 );
+		return array_slice( $slice_srcs, 3 );
 	}
 }
