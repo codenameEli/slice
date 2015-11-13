@@ -1,0 +1,1512 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"opac",
+				"opacity	opacity()"
+			],
+			[
+				"slider",
+				"slider-content"
+			],
+			[
+				"checkif",
+				"checkIfSameDay"
+			],
+			[
+				"drag",
+				"draggable"
+			],
+			[
+				"timeEn",
+				"timeEntries"
+			],
+			[
+				"connect",
+				"connectedSortable"
+			],
+			[
+				"got",
+				"goToNextWeek	(before.html)"
+			],
+			[
+				"getDay",
+				"getDaysOfWeek	(pmWeek.js)"
+			],
+			[
+				"newTime",
+				"newTimeEntryCreated"
+			],
+			[
+				"net",
+				"newTimeEntryCreated"
+			],
+			[
+				"time",
+				"timeEntry"
+			],
+			[
+				"User",
+				"UserInformation	(DayPlanner.js)"
+			],
+			[
+				"Eny",
+				"Entry_Date__c"
+			],
+			[
+				"Time",
+				"Time_Entry__c"
+			],
+			[
+				"La",
+				"LaunchDMAccount"
+			],
+			[
+				"Lea",
+				"Lead_Developer__c"
+			],
+			[
+				"opp",
+				"opportunities"
+			],
+			[
+				"updateTime",
+				"updateTimeEntry	(pmTimeEntryForm.js)"
+			],
+			[
+				"editingTim",
+				"editingSingleTimeEntry"
+			],
+			[
+				"oppo",
+				"opportunity"
+			],
+			[
+				"delet",
+				"deleteTimeEntry"
+			],
+			[
+				"update",
+				"updateTimeEntry"
+			],
+			[
+				"phaseCod",
+				"phaseCodes"
+			],
+			[
+				"toggl",
+				"toggleOpportunityInput	(PMToolDayPlanner.page)"
+			],
+			[
+				"loggf",
+				"loggingForOpportunity	(PMToolDayPlanner.page)"
+			],
+			[
+				"loggin",
+				"loggingForOpportunity"
+			],
+			[
+				"isc",
+				"isCreatingNewTimeEntry"
+			],
+			[
+				"timeEnt",
+				"timeEntries"
+			],
+			[
+				"relate",
+				"relatedTo"
+			],
+			[
+				"allO",
+				"allObjects"
+			],
+			[
+				"localStor",
+				"localStorageAccounts"
+			],
+			[
+				"local",
+				"localStorageAccounts"
+			],
+			[
+				"timeEntr",
+				"timeEntry"
+			],
+			[
+				"getTime",
+				"getTimeEntry"
+			],
+			[
+				"gettime",
+				"getTimeEntry"
+			],
+			[
+				"tie",
+				"timeEntries"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"defer",
+				"deferred"
+			],
+			[
+				"getaccoun",
+				"getAccounts	(PMToolDayPlanner.page)"
+			],
+			[
+				"pmsera",
+				"pmSearchProperty"
+			],
+			[
+				"oppou",
+				"opportunities"
+			],
+			[
+				"obejc",
+				"objects"
+			],
+			[
+				"lwo",
+				"lowercaseQuery"
+			],
+			[
+				"def",
+				"deferred"
+			],
+			[
+				"tes",
+				"test-index"
+			],
+			[
+				"Day",
+				"DayPlanner"
+			],
+			[
+				"animt",
+				"animationHappened"
+			],
+			[
+				"translate",
+				"translateY	(sfParallax.js)"
+			],
+			[
+				"forgroun",
+				"foregroundEl"
+			],
+			[
+				"height",
+				"heightIncrement"
+			],
+			[
+				"max",
+				"maxTranslate"
+			],
+			[
+				"transl",
+				"translateVal"
+			],
+			[
+				"back",
+				"backgroundEl"
+			],
+			[
+				"backgroun",
+				"backgroundEl"
+			],
+			[
+				"docu",
+				"documentHeight"
+			],
+			[
+				"elem",
+				"elementHeight"
+			],
+			[
+				"ele",
+				"elementHeight"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"top-foote",
+				"top-footer-container"
+			],
+			[
+				"srolPo",
+				"scrollPos"
+			],
+			[
+				"dya",
+				"dynamic_sidebar"
+			],
+			[
+				"delete",
+				"delete_transient"
+			],
+			[
+				"searc",
+				"searchText"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"home-banner-",
+				"home-banner-description"
+			],
+			[
+				"init",
+				"initialLoad"
+			],
+			[
+				"home-ban",
+				"home-banner-title"
+			],
+			[
+				"image",
+				"imageUrl"
+			],
+			[
+				"data",
+				"dataTransfer"
+			],
+			[
+				"roo",
+				"rootScope"
+			],
+			[
+				"Slic",
+				"SliceCtrl"
+			],
+			[
+				"Slci",
+				"SliceCtrl"
+			],
+			[
+				"addCls",
+				"addClass"
+			],
+			[
+				"last",
+				"lastScrollTop"
+			],
+			[
+				"search",
+				"searchText	(sfSearch.js)"
+			],
+			[
+				"searhc",
+				"searchText	(sfSearch.js)"
+			],
+			[
+				"Stick",
+				"StickNavCtrl	(sfStickyNav.js)"
+			],
+			[
+				"serac",
+				"searchText	(sfSearch.js)"
+			],
+			[
+				"template",
+				"templateUrl	(sfSearch.js)"
+			],
+			[
+				"repeat",
+				"repeat-x"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"select",
+				"selectedTags"
+			],
+			[
+				"catego",
+				"categories"
+			],
+			[
+				"loading",
+				"loadingMoreStories"
+			],
+			[
+				"sele",
+				"selectedOptions"
+			],
+			[
+				"selecte",
+				"selectedOption"
+			],
+			[
+				"chang",
+				"changedSelectedTopic	(sfSelect.js)"
+			],
+			[
+				"selec",
+				"selectedCategories"
+			],
+			[
+				"selecT",
+				"selectedTags"
+			],
+			[
+				"getall",
+				"getAllTags	(sfStoryService.js)"
+			],
+			[
+				"gettags",
+				"get_tags"
+			],
+			[
+				"pars",
+				"parseInt	(sfArticles.js)"
+			],
+			[
+				"json_",
+				"json_decode"
+			],
+			[
+				"string",
+				"stringify"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"foreac",
+				"foreach	foreach …"
+			],
+			[
+				"getcatgo",
+				"get_categories"
+			],
+			[
+				"categor",
+				"categoriesChanged	(sfArticles.js)"
+			],
+			[
+				"sle",
+				"selectedCategories"
+			],
+			[
+				"change",
+				"changedCategories"
+			],
+			[
+				"selected",
+				"selectedCategories"
+			],
+			[
+				"selectedca",
+				"selectedCategories	(TheGoodsCtrl.js)"
+			],
+			[
+				"getpost",
+				"get_post"
+			],
+			[
+				"fetchs",
+				"fetch_story_by_id"
+			],
+			[
+				"getstorby",
+				"get_story_by_id"
+			],
+			[
+				"getSTo",
+				"getStoriesById	(sfStoryService.js)"
+			],
+			[
+				"foreahc",
+				"foreach	foreach …"
+			],
+			[
+				"autho",
+				"authorUrl	(sfArticles.html)"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"exclude",
+				"exclude_ids"
+			],
+			[
+				"exclud",
+				"exclude_ids"
+			],
+			[
+				"shown",
+				"shownArticles"
+			],
+			[
+				"gettheconte",
+				"get_the_content	(archive-story.php)"
+			],
+			[
+				"_get",
+				"_getAllStoryIds"
+			],
+			[
+				"sfthegood",
+				"sf_the_goods_display_single_post"
+			],
+			[
+				"genesidopo",
+				"genesis_do_post_title"
+			],
+			[
+				"geneaftersid",
+				"genesis_after_content_sidebar_wrap"
+			],
+			[
+				"getauthor",
+				"get_the_author"
+			],
+			[
+				"open",
+				"openMenu	(sfSelect.js)"
+			],
+			[
+				"term",
+				"term_id"
+			],
+			[
+				"ter",
+				"term_id"
+			],
+			[
+				"regittax",
+				"register_taxonomy"
+			],
+			[
+				"slidet",
+				"slideTitle"
+			],
+			[
+				"curre",
+				"currentSlide"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 2149,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/css/sass/controls.scss",
+			"settings":
+			{
+				"buffer_size": 1390,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"depl",
+				"MavensMate: Deploy To Server..."
+			],
+			[
+				"deplo",
+				"MavensMate: Deploy To Server..."
+			],
+			[
+				"set",
+				"Set Syntax: Sass"
+			],
+			[
+				"setcss",
+				"Set Syntax: CSS"
+			],
+			[
+				"setsass",
+				"Set Syntax: Sass"
+			],
+			[
+				"resouce",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git diff",
+				"Git: Diff"
+			],
+			[
+				"xdebu",
+				"Xdebug: Stop Debugging (Close Windows)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"grunt",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"grunt ",
+				"Preferences: Grunt - Settings – Default"
+			],
+			[
+				"syns",
+				"Set Syntax: Sass"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/eli/Sites/slice",
+		"/Users/eli/Sites/slice/src",
+		"/Users/eli/Sites/slice/src/css",
+		"/Users/eli/Sites/slice/src/css/sass"
+	],
+	"file_history":
+	[
+		"/Users/eli/Sites/slice/Gruntfile.js",
+		"/Users/eli/Sites/dvgrr/src/plugins/dvgrr-functionality/includes/index.php",
+		"/Users/eli/Sites/dvgrr/src/plugins/dvgrr-functionality/composer.json",
+		"/Users/eli/Sites/dvgrr/src/plugins/dvgrr-functionality/includes/cpt-events.php",
+		"/Users/eli/Sites/dvgrr/grunt/aliases.yaml",
+		"/Users/eli/Sites/dvgrr/grunt/concurrent.js",
+		"/Users/eli/Sites/dvgrr/src/themes/dvgrr/404.php",
+		"/Users/eli/Sites/dvgrr/src/plugins/dvgrr-functionality/index.php",
+		"/Users/eli/Sites/dvgrr/htdocs/wp-content/plugins/dvgrr-functionality/lib/CustomPostType/Events.php",
+		"/Users/eli/Sites/dvgrr/htdocs/wp-content/plugins/dvgrr-functionality/includes/cpt-events.php",
+		"/Users/eli/Sites/dvgrr/src/plugins/dvgrr-functionality/lib/CustomPostType/Events.php",
+		"/Users/eli/Sites/dvgrr/htdocs/wp-content/plugins/dvgrr-functionality/index.php",
+		"/Users/eli/Sites/dvgrr/src/themes/dvgrr/resources/js/custom/custom.js",
+		"/Users/eli/Sites/dvgrr/grunt/watch.js",
+		"/Users/eli/Sites/dvgrr/grunt/sync.js",
+		"/Users/eli/Sites/dvgrr/Gruntfile.js",
+		"/Users/eli/Sites/dvgrr/src/themes/dvgrr/resources/css/custom/single-product.scss",
+		"/Users/eli/Sites/dvgrr/src/plugins/dvgrr/includes/cpt-events.php",
+		"/Users/eli/Sites/dvgrr/src/plugins/dvgrr/composer.json",
+		"/Users/eli/Sites/dvgrr/grunt/sass.js",
+		"/Users/eli/Sites/dvgrr/htdocs/wp-content/themes/awesome-admin/404.php",
+		"/Users/eli/Sites/dvgrr/grunt/notify_hooks.js",
+		"/Users/eli/Sites/dvgrr/.gitignore",
+		"/Users/eli/Sites/dvgrr/src/themes/dvgrr/resources/css/custom/nav.scss",
+		"/Users/eli/Sites/dvgrr/package.json",
+		"/Users/eli/Sites/dvgrr/node_modules/grunt-sync/package.json",
+		"/Users/eli/Sites/dvgrr/TODO.html",
+		"/Users/eli/Sites/dvgrr/htdocs/wp-config.php",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/assets/sass/style.scss",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/controllers/DayPlanner.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/templates/pmTimeEntryForm.html",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/directives/pmWeek.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/factories/TimeEntries.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/assets/sass/personal-touch.scss",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/templates/pmDay.html",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/directives/pmBlock.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/directives/pmDay.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/directives/pmSortable.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/resource-bundles/PMToolResources.resource/js/ui-sortable.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/directives/pmDraggable.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/before.html",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/directives/pmTimeEntryForm.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/templates/pmWeek.html",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/factories/Opportunities.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/src/classes/PMToolDayPlannerController.cls",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/src/pages/PMToolDayPlanner.page",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/assets/sass/day-planner.scss",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/test-index.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/index.html",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/services/Session.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/grunt/concat.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/grunt/aliases.yaml",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/grunt/watch.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/grunt/sass.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/directives/pmSearch.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/resource-bundles/PMToolResources.resource/bower_components/angular-material/angular-material.min.js",
+		"/private/var/folders/5m/ngyrldl10zv75dmjn9j0yb5c0000gn/T/fz3temp-1/wp-config.php",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/factories/UserInformation.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/factories/Accounts.js",
+		"/Users/eli/Library/Application Support/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
+		"/Users/eli/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/after.html",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/services/LocalStorage.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/factories/Projects.js",
+		"/Users/eli/Downloads/icomoon_latest/style.css",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/LaunchDM Sandbox.sublime-workspace",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/LaunchDM Sandbox.sublime-project",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/templates/pmBlock.html",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/templates/pmSearch.html",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/old-day-planner-page.html",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/factories/PhaseCodes.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/src/pages/PMToolProjectPage.page",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/assets/styles.min.css",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/resource-bundles/PMToolResources.resource/css/sass/supporting/droppable.scss",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/resource-bundles/PMToolResources.resource/css/sass/supporting/autocomplete.scss",
+		"/Applications/Sublime Text.app/Contents/MacOS/Packages/Default.sublime-package",
+		"/Users/eli/Library/Application Support/Sublime Text 3/Packages/Default/Context.sublime-menu",
+		"/Users/eli/Library/Application Support/Sublime Text 3/Packages/Default/Main.sublime-menu",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/test-index.html",
+		"/Users/eli/Desktop/angular-material/bower_components/angular-material/angular-material.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/resource-bundles/PMToolResources.resource/bower_components/angular-material/angular-material.min.css",
+		"/Users/eli/Downloads/pardot-mail-form.php",
+		"/Users/eli/Sites/slice/src/js/LocalStorageService.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/directives/pmDayTracker.js",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/resources/js/custom/directives/sfParallax.js",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/front-page.php",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/resources/js/custom/directives/sfEventRecapsTitle.js",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/lib/Component/WhatsGoingOn.php",
+		"/Users/eli/Library/Application Support/Sublime Text 3/Installed Packages/CSS Snippets.sublime-package",
+		"/Users/eli/Sites/grvcb/.git/MERGE_MSG",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/directives/pmHelpCenter.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/Gruntfile.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/directives/pmDroppableArea.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/app.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/factories/GoogleCalendar.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/app/directives/pmDraggableObject.js",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/test-index.json",
+		"/Users/eli/MavensMate/LaunchDM Sandbox/package.json",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/resources/css/custom/slideshow.scss",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/resources/css/custom/header.scss",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/resources/css/custom/whats-happening-now.scss",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/resources/css/custom/whats-going-on.scss",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/resources/js/custom/directives/sfStickyNav.js",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/resources/css/custom/animations.scss",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/includes/footer.php",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/includes/transient-controls.php",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/includes/primary-navigation.php",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/resources/js/custom/directives/sfArticles.js",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/resources/css/custom/footer.scss",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/resources/css/custom/mixins.scss",
+		"/Users/eli/Sites/awesomeadmin/htdocs/wp-content/plugins/toggle-psd/assets/js/toggle-psd.min.js",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/includes/widget-areas.php",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/includes/widgets.php",
+		"/Users/eli/Sites/awesomeadmin/TODO.md",
+		"/Users/eli/Sites/awesomeadmin/grunt/concurrent.js",
+		"/Users/eli/Sites/awesomeadmin/grunt/watch.js",
+		"/Users/eli/Sites/awesomeadmin/grunt/aliases.yaml",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/lib/Component/TheGoods.php",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/lib/Component/WhatsHappeningNow.php",
+		"/Users/eli/Sites/awesomeadmin/htdocs/wp-content/themes/awesome-admin/lib/Component/WhatsGoingOn.php",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/lib/Component/HomeBannerSlideshow.php",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/lib/Component/CtaSlideshow.php",
+		"/Users/eli/Sites/awesomeadmin/src/plugins/awesome-admin/includes/cpt-homebanners.php",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/lib/Component/RelatedPosts.php",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/lib/Component/RelatedPost.php",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/lib/Component/Story.php",
+		"/Users/eli/Sites/awesomeadmin/htdocs/wp-content/themes/awesome-admin/lib/Component/Story.php",
+		"/Users/eli/Sites/awesomeadmin/src/themes/awesome-admin/lib/Component/Footer.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"",
+			"/Users/eli/vagrant-local/www/awesomeadmin/src/themes/awesome-admin/resources/css/custom",
+			"/src/themes/awesome-admin/resources/css/custom",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"display: block;",
+			"100px",
+			"		<div class=\"sweet-cta\">\n			<p>Some Content</p>\n		</div>",
+			"load_composer",
+			"register_cpt",
+			"DVGRR Functionality",
+			"Plugin for the LaunchPad Theme.",
+			"password_here",
+			"username_here",
+			"ng-click",
+			"ng-show=\"step",
+			"pmTimeEntryForm",
+			"class=\"md-raised\" ",
+			"<md-button",
+			"button",
+			"setFormForInternal",
+			"clearTimeEntry",
+			"pmSortable",
+			"all",
+			"pmDay",
+			"pmDay.html",
+			"pmDay",
+			"pmBlock",
+			"pmDay.html",
+			"pm-block",
+			"controller",
+			"monday",
+			"getDaysOfWeek",
+			"theDay",
+			"i",
+			"time",
+			"pmDay.html",
+			"HAHA",
+			"pmTimeEntryForm.html",
+			"pm-day",
+			"pmDay.html",
+			"isFinished",
+			"css",
+			"$timeou",
+			"100px",
+			"$timeout",
+			"pmSearch.html",
+			"timeEntryform.html",
+			"time-entry-form",
+			"timeEntryForm",
+			"isFinished",
+			"sass_local",
+			"code",
+			"off",
+			" ? ",
+			".get( '",
+			"Id",
+			"LocalStorage",
+			"localStorage",
+			"LocalStorage",
+			"function DayPlanner( $scope, ",
+			"https://www.dropbox.com/s/00rcb01smaq8nd3/Screenshot%202015-08-31%2010.47.29.png?dl=0",
+			"ng-bind",
+			"get",
+			"record",
+			"Opportunities",
+			"get",
+			"Accounts",
+			"ng-bind",
+			"phaseCode",
+			"code",
+			"timeEntryForm",
+			"timeEntry",
+			"TimeEntry",
+			"timeEntry",
+			"TimeEntry",
+			"timeEntry",
+			"TimeEntry",
+			"timeEntry",
+			"TimeEntry",
+			"timeEntry",
+			"TimeEntry",
+			"timeEntry",
+			"timeEntryForm",
+			"focusStepInput",
+			"focus",
+			"newTimeEntryCreated",
+			"saveTimeEntr",
+			"lex",
+			"password",
+			"removeclass",
+			"class",
+			"clearingTimeEntryForm",
+			"clearTime",
+			"clearTimeEntry",
+			"timeEntryForm",
+			"TimeEntryForm",
+			"timeEntryForm",
+			"clearingTimeEntryForm",
+			"changingTheDay",
+			"DayPlanner",
+			" flex=\"66\"",
+			"<div ng-show",
+			"day",
+			"span",
+			"colorMeeting",
+			"editEntry",
+			"pmBlock",
+			"pm-block",
+			"pmDay",
+			"style",
+			"update",
+			"yodate",
+			"update",
+			"open",
+			"start",
+			"TimeEntry",
+			"timeEntry",
+			"TimeEntry",
+			"timeEntry",
+			"TimeEntry",
+			"timeEntry",
+			"TimeEntry",
+			"timeEntry",
+			"TimeEntry",
+			"timeEntry",
+			"TimeEntry",
+			"timeEntry",
+			"TimeEntry",
+			"timeEntry",
+			"TimeEntry",
+			"timeEntry",
+			"TimeEntry"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2009,
+								2009
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": true,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 546.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/css/sass/controls.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1390,
+								1390
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1862.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 138.0
+	},
+	"output.exec":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "slice.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pmday.html",
+				"app/templates/pmDay.html"
+			],
+			[
+				"timeen",
+				"app/directives/pmTimeEntryForm.js"
+			],
+			[
+				"befor",
+				"before.html"
+			],
+			[
+				"pmweek",
+				"app/templates/pmWeek.html"
+			],
+			[
+				"pmday",
+				"app/directives/pmDay.js"
+			],
+			[
+				"pmblock",
+				"app/directives/pmBlock.js"
+			],
+			[
+				"time",
+				"app/factories/TimeEntries.js"
+			],
+			[
+				"dayplan",
+				"app/controllers/DayPlanner.js"
+			],
+			[
+				"pmwe",
+				"app/templates/pmWeek.html"
+			],
+			[
+				"pmtimeen",
+				"app/templates/pmTimeEntryForm.html"
+			],
+			[
+				"timeentr",
+				"app/factories/TimeEntries.js"
+			],
+			[
+				"opp",
+				"app/factories/Opportunities.js"
+			],
+			[
+				"dayplannscss",
+				"app/assets/sass/day-planner.scss"
+			],
+			[
+				"pmda",
+				"app/directives/pmDay.js"
+			],
+			[
+				"daypl",
+				"app/controllers/DayPlanner.js"
+			],
+			[
+				"pmtime",
+				"app/templates/pmTimeEntryForm.html"
+			],
+			[
+				"pmfor",
+				"app/directives/pmTimeEntryForm.js"
+			],
+			[
+				"day",
+				"app/controllers/DayPlanner.js"
+			],
+			[
+				"pmdajs",
+				"app/directives/pmDay.js"
+			],
+			[
+				"pmdayhtml",
+				"app/templates/pmDay.html"
+			],
+			[
+				"da",
+				"app/controllers/DayPlanner.js"
+			],
+			[
+				"",
+				"app/templates/pmTimeEntryForm.html"
+			],
+			[
+				"before",
+				"before.html"
+			],
+			[
+				"pmdayht",
+				"app/templates/pmDay.html"
+			],
+			[
+				"pmwee",
+				"app/directives/pmWeek.js"
+			],
+			[
+				"after",
+				"after.html"
+			],
+			[
+				"pro",
+				"app/factories/Projects.js"
+			],
+			[
+				"phase",
+				"app/factories/PhaseCodes.js"
+			],
+			[
+				"accounts",
+				"app/factories/Accounts.js"
+			],
+			[
+				"phasec",
+				"app/factories/PhaseCodes.js"
+			],
+			[
+				"pmbloc",
+				"app/templates/pmBlock.html"
+			],
+			[
+				"mblochtml",
+				"app/templates/pmBlock.html"
+			],
+			[
+				"pmt",
+				"app/directives/pmTimeEntryForm.js"
+			],
+			[
+				"pmsear",
+				"app/directives/pmSearch.js"
+			],
+			[
+				"mda",
+				"app/directives/pmDay.js"
+			],
+			[
+				"pmblo",
+				"app/directives/pmBlock.js"
+			],
+			[
+				"dayplanner",
+				"app/controllers/DayPlanner.js"
+			],
+			[
+				"befo",
+				"before.html"
+			],
+			[
+				"watch",
+				"grunt/watch.js"
+			],
+			[
+				"pmday.js",
+				"app/directives/pmDay.js"
+			],
+			[
+				"pmfro",
+				"app/directives/pmTimeEntryForm.js"
+			],
+			[
+				"pmday.",
+				"app/directives/pmDay.js"
+			],
+			[
+				"prjects",
+				"app/factories/Projects.js"
+			],
+			[
+				"beform",
+				"before.html"
+			],
+			[
+				"pmsearc",
+				"app/templates/pmSearch.html"
+			],
+			[
+				"pmtimjs",
+				"app/directives/pmTimeEntryForm.js"
+			],
+			[
+				"daypla",
+				"app/controllers/DayPlanner.js"
+			],
+			[
+				"project",
+				"app/factories/Projects.js"
+			],
+			[
+				"oppo",
+				"app/factories/Opportunities.js"
+			],
+			[
+				"pmblok",
+				"app/directives/pmBlock.js"
+			],
+			[
+				"before.",
+				"before.html"
+			],
+			[
+				"pmti",
+				"app/templates/pmTimeEntryForm.html"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"dayplann",
+				"app/controllers/DayPlanner.js"
+			],
+			[
+				"projec",
+				"app/factories/Projects.js"
+			],
+			[
+				"accounts.js",
+				"app/factories/Accounts.js"
+			],
+			[
+				"projects",
+				"app/factories/Projects.js"
+			],
+			[
+				"timeentri",
+				"app/factories/TimeEntries.js"
+			],
+			[
+				"pmdropp",
+				"app/directives/pmDroppableArea.js"
+			],
+			[
+				"sf-load",
+				"src/themes/awesome-admin/resources/css/custom/sf-loading-icon.scss"
+			],
+			[
+				"archive",
+				"src/themes/awesome-admin/archive-story.php"
+			],
+			[
+				"thegoods",
+				"src/themes/awesome-admin/lib/Component/TheGoods.php"
+			],
+			[
+				"sfsele",
+				"src/themes/awesome-admin/resources/js/custom/directives/sfSelect.js"
+			],
+			[
+				"sfoption",
+				"src/themes/awesome-admin/resources/js/custom/directives/sfOption.html"
+			],
+			[
+				"whatsgoing",
+				"src/themes/awesome-admin/lib/Component/WhatsGoingOn.php"
+			],
+			[
+				"front",
+				"src/themes/awesome-admin/front-page.php"
+			],
+			[
+				"sfarti",
+				"src/themes/awesome-admin/resources/js/custom/directives/sfArticle.js"
+			],
+			[
+				"sfselec",
+				"src/themes/awesome-admin/resources/js/custom/directives/sfSelect.js"
+			],
+			[
+				"sffo",
+				"src/themes/awesome-admin/resources/js/custom/sf-footer/SfFooterCtrl.js"
+			],
+			[
+				"animations",
+				"src/themes/awesome-admin/resources/css/custom/animations.scss"
+			],
+			[
+				"foo",
+				"src/themes/awesome-admin/includes/footer.php"
+			],
+			[
+				"sfslide",
+				"src/themes/awesome-admin/resources/js/custom/directives/sfSlider.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/dvgrr/dvgrr.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 679.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 327.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
