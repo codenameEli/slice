@@ -91,17 +91,16 @@ class Slices {
 			);
 
 			$slice = array(
-				'src' => $src,
+				'src' => 'slices/' . $src,
 				'visible' => false,
 				'opacity' => 0.5,
 				'position' => $position,
 			);
 
 			array_push( $slices, $slice);
-
 		}
 
-		return $slices;
+		return json_encode( $slices );
 	}
 
 	private function get_slice_srcs() {
