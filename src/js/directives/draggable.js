@@ -19,7 +19,6 @@ function ceDraggable(sliceConfig, $timeout) {
 
 				stop: function( event, ui ) {
 
-					console.log("SCOPE", $scope);
 					updatePosition( event, ui );
 				}
 			});

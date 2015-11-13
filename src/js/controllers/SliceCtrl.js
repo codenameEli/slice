@@ -8,8 +8,6 @@ function SliceCtrl( $scope, Slices ) {
 	// Slices.setSlices( slices );
 	$scope.slices = Slices.getSlices();
 
-	console.log("SLICES", $scope.slices);
-
 	$scope.updateSlices = function() {
 
 		Slices.updateSlices( $scope.slices );
