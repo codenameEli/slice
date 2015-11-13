@@ -10,7 +10,7 @@ function Slices( $rootScope, LocalStorage ) {
 
 		if ( slices == null ) {
 
-			_setSlices(slicesJSON);
+			_setSlices( slicesJSON );
 		}
 
 		return LocalStorage.getItem( 'Slice' );

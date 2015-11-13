@@ -35,7 +35,8 @@
 
 	POSITION
 	<div ng-hide="editingPosition">
-		{{ slice.position }}
+		Left: {{ slice.position.left }}
+		Top: {{ slice.position.top }}
 	</div>
 
 	<div ng-show="editingPosition">
@@ -54,5 +55,4 @@
 	</div>
 
 	<button ng-click="resetPosition()">RESET</button>
-	{{ slice.position }}
 </div>
