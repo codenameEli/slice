@@ -6,6 +6,7 @@ default:
   # - 'sync'
   # - 'sass'
   - 'concat'
+  - 'sass'
   - 'watch'
 
 init:

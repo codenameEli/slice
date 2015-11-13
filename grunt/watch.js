@@ -10,6 +10,26 @@ module.exports = {
         },
     },
 
+    css: {
+        files: [
+            'src/css/sass/*.scss',
+        ],
+        tasks: [ 'sass' ],
+        options: {
+            livereload: true,
+        },
+    },
+
+    // templates: {
+    //     files: [
+    //         '*.php',
+    //         '*.html',
+    //     ],
+    //     options: {
+    //         livereload: true,
+    //     },
+    // },
+
 	// theme: {
 	// 	files: [
  //            '<%= paths.src.theme.client %>/**/*',
