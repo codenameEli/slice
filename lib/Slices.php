@@ -28,6 +28,7 @@ class Slices {
 	public function do_footer_assets() {
 
 		?>
+			<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
 			<script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
 			<script type="text/javascript" src="/bower_components/jquery-ui/jquery-ui.min.js"></script>
 			<script type="text/javascript" src="/bower_components/angular/angular.min.js"></script>
