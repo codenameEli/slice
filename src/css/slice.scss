@@ -1,4 +1,7 @@
 // Font Awesome
 @import "./bower_components/font-awesome/scss/font-awesome";
 
+@import "sass/variables";
+@import "sass/mixins";
+@import "sass/slice";
 @import "sass/controls";

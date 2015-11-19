@@ -1,10 +1,4 @@
-$fontFamily: "Roboto";
-
-div[ng-module="Slice"] {
-	font-family: $fontFamily;
-}
-
-.controls-container {
+.slices-container {
 	position: fixed;
 	bottom: 0;
 	right: 0;
@@ -91,7 +85,7 @@ div[ng-module="Slice"] {
 		margin: 5px 0 0 5px;
 	}
 
-	.slice-controls-container.active {
+	.slice-slices-container.active {
 
 		.slice-control-toolbar {
 			background: #f49400;

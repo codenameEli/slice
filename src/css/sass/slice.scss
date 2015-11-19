@@ -1,0 +1,23 @@
+div[ng-module="Slice"] {
+	font-family: $fontFamily;
+}
+
+.slice-button {
+	@include hoverTransition;
+	width: 100%;
+	height: 32px;
+	border: 0;
+	background: $colorPrimary;
+	color: #FFF;
+	font-family: inherit;
+	font-size: inherit;
+	&:hover {
+		background: lighten( $colorPrimary, 10 );
+	}
+	&.accent {
+		background: $colorAccent;
+		&:hover {
+			background: lighten( $colorAccent, 10 );
+		}
+	}
+}
