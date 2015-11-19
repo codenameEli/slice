@@ -47,7 +47,7 @@ class Slices {
 		<div ng-module="Slice">
 			<div ng-controller="SliceCtrl">
 
-				<div class="controls-container" ng-class="{ 'slice-hidden': mainToolbarVisible }">
+				<div class="slices-container" ng-class="{ 'slice-hidden': mainToolbarVisible }">
 					<div class="slice-main-toolbar" ng-click="toggleMainToolbar()">
 						SLICE
 						<div class="toggle-main-toolbar">
@@ -61,7 +61,7 @@ class Slices {
 						</div>
 					</div>
 					<ce-controls
-					class="slice-controls-container"
+					class="slice-slices-container"
 					ng-class="{ 'active': slice.visible }"
 					ng-repeat="slice in slices"></ce-controls>
 				</div>

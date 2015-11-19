@@ -5,11 +5,16 @@ function ceControls(sliceConfig, Slices, $timeout) {
 		restrict: 'EA',
 		link: function($scope, element, attrs) {
 
-			$scope.editingName = false;
+			$scope.editing = false;
 
-			$scope.updateSliceName = function() {
+			$scope.editSlice = function() {
 
-				$scope.editingName = false;
+				$scope.editing = true;
+			}
+
+			$scope.updateSlice = function() {
+
+				$scope.editing = false;
 				$scope.updateSlices();
 			}
 

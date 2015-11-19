@@ -1,4 +1,4 @@
-	slice.controller( 'SliceCtrl', SliceCtrl );
+slice.controller( 'SliceCtrl', SliceCtrl );
 
 function SliceCtrl( $scope, Slices ) {
 
@@ -16,6 +16,8 @@ function SliceCtrl( $scope, Slices ) {
 
 		$scope.mainToolbarVisible = $scope.mainToolbarVisible == true ? false : true;
 	}
+
+
 	// var Slice = {
 	// 	paths: {
 	// 		base: location.origin,

@@ -24,7 +24,7 @@
 				<img ng-src="/slices/{{ slice }}" />
 			</div> -->
 
-			<div class="controls-container" ng-class="{ hidden: mainToolbarVisible }">
+			<div class="slices-container" ng-class="{ hidden: mainToolbarVisible }">
 				<div class="slice-main-toolbar">
 					SLICE
 					<div class="toggle-main-toolbar" ng-click="toggleMainToolbar()">
@@ -38,7 +38,7 @@
 					</div>
 				</div>
 				<ce-controls
-				class="slice-controls-container"
+				class="slice-slices-container"
 				ng-class="{ 'active': slice.visible }"
 				ng-repeat="slice in slices"></ce-controls>
 			</div>
