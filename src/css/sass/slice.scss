@@ -79,6 +79,7 @@ div[ng-module="Slice"] {
 
 .slice-container {
 	display: none;
+	outline: 2px solid $colorPrimary;
 	&.active {
 		display: block;
 		position: absolute;
