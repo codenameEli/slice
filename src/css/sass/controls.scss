@@ -13,6 +13,8 @@ div[ng-module="Slice"] {
 	height: auto;
 	transition: height 1s ease;
 	background: #FFC107;
+	overflow: scroll;
+	max-height: 100%;
 	&.slice-hidden {
 		height: 32px;
 	}
