@@ -1,48 +1,58 @@
-<div class="slice-control-toolbar">
+<div class="slice-control-toolbar" ng-dblclick="editingName = true">
 
 	<div class="slice-toggle check-status" ng-click="toggleSlice()" ng-model="slice.visible"></div>
 
-	<span>{{ slice.name }}</span>
+	<span ng-hide="editingName">{{ slice.name }}</span>
+
+	<input class="slice-name" type="text" ng-show="editingName" ng-model="slice.name" ng-keypress="detectEnterKey($event)"/>
 
 	<div class="action-button-container">
-		<span class="edit-button" ng-show="!editing" ng-click="editing = true">
+		<span class="edit-button" ng-show="!editingName" ng-click="editingName = true">
 			<i class="fa fa-pencil"></i>
+		</span>
+
+		<span ng-show="editingName" ng-click="updateSliceName()">
+			<i class="fa fa-times"></i>
 		</span>
 	</div>
 </div>
 
-<div class="slice-slices-container" ng-show="editing">
+<div class="slice-control slice-opacity">
+	Opacity
+	{{ slice.opacity }}<br/>
+	<input
+	type="range"
+	min="0"
+	max="1"
+	step="0.01"
+	ng-model="slice.opacity"
+	ng-change="updateSlices()"
+	></input>
+	<button ng-click="resetSliceOpacity()">reset</button>
+</div>
 
-	<div class="slice-control slice-name">
-		<label>NAME</label>
-		<input class="slice-name" type="text" ng-show="editing" ng-model="slice.name"/>
-	</div>
+<div class="slice-control slice-position">
 
-	<div class="slice-control slice-opacity">
-		<label>OPACITY</label>
-		{{ slice.opacity }}<br/>
-		<input
-		type="range"
-		min="0"
-		max="1"
-		step="0.01"
-		ng-model="slice.opacity"
-		ng-change="updateSlices()"
-		></input>
-		<button ng-click="resetSliceOpacity()">reset</button>
-	</div>
-
-	<div class="slice-control slice-position">
-
-		<label>POSITION</label>
-
+	POSITION
+	<div ng-hide="editingPosition">
 		Left: {{ slice.position.left }}
 		Top: {{ slice.position.top }}
-		<input type="number" ng-model="slice.position.left"></input>
-		<input type="number" ng-model="slice.position.top"></input>
-
-		<button ng-click="resetPosition()">RESET</button>
 	</div>
 
-	<button class="slice-button accent" ng-click="updateSlice()">CLOSE</button>
+	<div ng-show="editingPosition">
+		<input type="number" ng-model="slice.position.left"></input>
+		<input type="number" ng-model="slice.position.top"></input>
+	</div>
+
+	<div class="action-button-container">
+		<span class="edit-button" ng-show="!editingPosition" ng-click="editingPosition = true">
+			<i class="fa fa-pencil"></i>
+		</span>
+
+		<button ng-show="editingPosition" ng-click="editingPosition = false">
+			<i class="fa fa-times"></i>
+		</button>
+	</div>
+
+	<button ng-click="resetPosition()">RESET</button>
 </div>

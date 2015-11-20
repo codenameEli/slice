@@ -1,12 +1,64 @@
-.slice-control {
-	background: #FFF;
-	border-top: 1px solid #d1cfcf;
-	border-bottom: 1px solid #d1cfcf;
-	padding: 5px;
-	position: relative;
-	&:hover {
-		.edit-button {
-			opacity: 1;
+.controls-container {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 250px;
+	z-index: 999;
+	height: auto;
+	transition: height 1s ease;
+	background: #FFC107;
+	&.slice-hidden {
+		height: 32px;
+	}
+
+	.slice-main-toolbar {
+		color: #FFF;
+		text-align: center;
+		line-height: 32px;
+	}
+
+	.toggle-main-toolbar {
+		position: absolute;
+		left: 10px;
+		top: 0;
+	}
+
+	.slice-control-toolbar {
+		background: #d5d5d5;
+		color: #FFF;
+		position: relative;
+		font-size: 16px;
+		height: 32px;
+		&:hover {
+			.edit-button {
+				opacity: 1;
+			}
+		}
+
+		input {
+			font-family: $fontFamily;
+			background: none;
+			border: 0;
+			border-bottom: 1px solid #FFF;
+			color: #FFF;
+			font-size: 16px;
+			&:active,
+			&:focus {
+				outline: 0;
+			}
+		}
+	}
+
+	.slice-control {
+		background: #FFF;
+		border-top: 1px solid #d1cfcf;
+		border-bottom: 1px solid #d1cfcf;
+		padding: 5px;
+		position: relative;
+		&:hover {
+			.edit-button {
+				opacity: 1;
+			}
 		}
 	}
 }
