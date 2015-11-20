@@ -28,7 +28,7 @@ class Slices {
 		<div ng-module="Slice">
 			<div ng-controller="SliceCtrl">
 
-				<div class="controls-container" ng-class="{ 'slice-hidden': mainToolbarVisible }">
+				<div class="slices-container" ng-class="{ 'slice-hidden': mainToolbarVisible }">
 					<div class="slice-main-toolbar" ng-click="toggleMainToolbar()">
 						SLICE
 						<div class="toggle-main-toolbar">
@@ -42,7 +42,7 @@ class Slices {
 						</div>
 					</div>
 					<ce-controls
-					class="slice-controls-container"
+					class="slice-slices-container"
 					ng-class="{ 'active': slice.visible }"
 					ng-repeat="slice in slices"></ce-controls>
 				</div>
@@ -66,7 +66,7 @@ class Slices {
 
 		wp_register_script( 'angular', SLICE_ASSETS_URI . '/bower_components/angular/angular.min.js', array( 'jquery' ), $ver, true );
 		wp_register_script( 'ng-module', SLICE_ASSETS_URI . '/bower_components/ng-module/ng-module.js', array( 'angular' ), $ver, true );
-		wp_register_script( 'slice', SLICE_ASSETS_URI . '/src/slice.min.js', array( 'angular', 'ng-module', 'jquery-ui-draggable' ), $ver, true );
+		wp_register_script( 'slice', SLICE_ASSETS_URI . '/src/slice.min.js', array( 'angular', 'underscore', 'ng-module', 'jquery-ui-draggable' ), $ver, true );
 
 		wp_register_style( 'slice', SLICE_ASSETS_URI . '/src/css/slice.min.css', array(), $ver, false );
 	}
