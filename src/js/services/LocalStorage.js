@@ -29,14 +29,33 @@ function LocalStorage( $rootScope, $q ) {
 		return _getItem( key );
 	}
 
-	function _removeItem( key ) {
+	function _removeItem( key, index ) {
 
-		localStorage.removeItem( key );
+		var storage = _getItem( key );
+
+		storage.splice( index, 1 );
+
+		_setItem( key, storage );
 	}
 
-	this.removeItem = function( key ) {
+	this.removeItem = function( key, index ) {
 
-		return _removeItem( key );
+		return _removeItem( key, index );
+	}
+
+	function _addItem( key, item ) {
+
+		var storage = _getItem( key );
+
+		console.log(storage);
+		storage.push( item );
+
+		_setItem( key, storage );
+	}
+
+	this.addItem = function( key, item ) {
+
+		return _addItem( key, item );
 	}
 
 	this.clear = function() {

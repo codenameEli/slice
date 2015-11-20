@@ -12,6 +12,7 @@ function SliceCtrl( $scope, Slices ) {
 
 		Slices.updateSlices( $scope.slices );
 	}
+
 	$scope.toggleMainToolbar = function() {
 
 		$scope.mainToolbarVisible = $scope.mainToolbarVisible == true ? false : true;

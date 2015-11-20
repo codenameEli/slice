@@ -84,7 +84,7 @@ class Slices {
 		$slice_srcs = $this->get_slice_srcs();
 		$slices = array();
 
-		foreach ( $slice_srcs as $src ) {
+		foreach ( $slice_srcs as $i=>$src ) {
 
 			$position = array(
 				'left' => 0,
@@ -92,6 +92,7 @@ class Slices {
 			);
 
 			$slice = array(
+				'index' => $i,
 				'src' => 'slices/' . $src,
 				'visible' => false,
 				'opacity' => 0.5,

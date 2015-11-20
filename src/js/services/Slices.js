@@ -4,49 +4,69 @@ function Slices( $rootScope, LocalStorage ) {
 
 	var Slices = {};
 
-	function _syncSlices( storageSlices, dirSlices ) {
+	var dirSlices = slicesJSON;
+	var storageSlices = LocalStorage.getItem( 'Slice' );
+
+	function getSlicesSrcs( list ) {
+
+		var final = [];
+
+		_.each( list, function( item ) {
+
+			final.push( item.src );
+		});
+
+		return final;
+	}
+
+	function deleteSliceFromStorage( ids ) {
+
+		_.each( ids, function( id ) {
+
+			var index = _.indexOf( storageSlices, _.findWhere( storageSlices, { src: id } ) );
+
+			LocalStorage.removeItem( 'Slice', index );
+		});
+	}
+
+	function addSliceToStorage( ids ) {
+
+		_.each( ids, function( id ) {
+
+			var index = _.findWhere( dirSlices, { src: id } );
+
+			console.log(index);
+
+			LocalStorage.addItem( 'Slice', index );
+		});
+	}
+
+	function _syncSlices() {
 
 		var finalSlices = [],
 			storageCount = storageSlices.length,
-			dirCount = dirSlices.length;
-
-		// if they are equal, return
-		// else find where the diff is
-		// if in stoage
-		// delete out of stoage
-		// if is in dir
-		// add to storage
-
-		console.log(storageSlices, dirSlices);
+			storageSrcs = getSlicesSrcs( storageSlices ),
+			dirCount = dirSlices.length,
+			dirSrcs = getSlicesSrcs( dirSlices );
 
 		var diff = storageCount === dirCount;
-
-		console.log(diff);
 
 		if ( diff ) { return; }
 
 		if ( storageCount > dirCount ) {
 
-			// Delete out of storage
-			_.each( storageSlices, function( slice ) {
+			var diff = _.difference( storageSrcs, dirSrcs );
 
-				var sliceToDelete = _.filter( dirSlices, function( dirSlice ) {
-
-					if ( dirSlice.src === slice.src ) {
-
-						return;
-					}
-
-					return dirSlice;
-				});
-
-				console.log(sliceToDelete);
-			});
-			return;
+			deleteSliceFromStorage( diff );
 		}
 
 		if ( dirCount > storageCount ) {
 
+			console.log(dirSlices);
+			var diff = _.difference( dirSrcs, storageSrcs );
+			console.log(diff);
+
+			addSliceToStorage( diff );
 			// Add to storage
 			return;
 		}
@@ -54,13 +74,12 @@ function Slices( $rootScope, LocalStorage ) {
 
 	function _getSlices() {
 
-		var slices = LocalStorage.getItem( 'Slice' );
-
-		_syncSlices( slices, slicesJSON );
-
-		if ( slices == null ) {
+		if ( storageSlices == null ) {
 
 			_setSlices( slicesJSON );
+		} else {
+
+			_syncSlices();
 		}
 
 		return LocalStorage.getItem( 'Slice' );
@@ -71,20 +90,18 @@ function Slices( $rootScope, LocalStorage ) {
 		return LocalStorage.setItem( 'Slice', slices );
 	}
 
-	Slices.getSlices = function() {
+	this.getSlices = function() {
 
 		return _getSlices();
 	}
 
-	Slices.setSlices = function(slices) {
+	this.setSlices = function(slices) {
 
 		return _setSlices(slices);
 	}
 
-	Slices.updateSlices = function(slices) {
+	this.updateSlices = function(slices) {
 
 		return _setSlices(slices);
 	}
-
-	return Slices;
 }
