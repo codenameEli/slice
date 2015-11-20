@@ -37,5 +37,4 @@
 
 	$Slices = new Slices();
 	$slices = $Slices->get_slices();
-
 	$Slices->add_slice_markup();
