@@ -26,6 +26,7 @@
 
 	// use Slice as Slice;
 	// require 'vendor/autoload.php';
+	if ( is_admin() ) { return; }
 
     define( 'SLICE_DIR', dirname( __FILE__ ) );
     define( 'SLICE_ASSETS_URI', plugins_url() . '/slice' );
