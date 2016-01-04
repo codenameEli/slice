@@ -117,6 +117,7 @@ class Slices {
 
 			$slice = array(
 				'index' => $i,
+				'name' => $src,
 				'src' => SLICE_ASSETS_URI . '/slices/' . $src,
 				'visible' => false,
 				'opacity' => 0.5,
