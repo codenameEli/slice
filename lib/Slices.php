@@ -132,7 +132,14 @@ class Slices {
 	private function get_slice_srcs() {
 
 		$slice_srcs = scandir( SLICE_DIR . '/slices' );
+		$final = array();
+		$pattern = "/(?:\\.jpg|\\.png|\\.gif)/";
 
-		return array_slice( $slice_srcs, 3 );
+		foreach ( $slice_srcs as $i=>$src ) {
+
+			preg_match( $pattern, $src ) ? array_push( $final, $src ) : '';
+		}
+
+		return $final;
 	}
 }
