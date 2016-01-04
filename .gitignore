@@ -4,6 +4,7 @@
 !.gitignore
 # ignore all files that start with ~
 ~*
+.log
 
 /node_modules
 *.min.*
