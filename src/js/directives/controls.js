@@ -18,6 +18,12 @@ function ceControls(sliceConfig, Slices, $timeout) {
 				$scope.updateSlices();
 			}
 
+			$scope.toggleSliceDraggable = function() {
+
+				$scope.slice.draggable = $scope.slice.draggable ? false : true;
+				$scope.updateSlices();
+			}
+
 			$scope.resetSliceOpacity = function() {
 
 				$scope.slice.opacity = 0.5;

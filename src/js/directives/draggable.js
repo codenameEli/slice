@@ -22,6 +22,17 @@ function ceDraggable(sliceConfig, $timeout) {
 					updatePosition( event, ui );
 				}
 			});
+
+			$scope.$watch( 'slice.draggable', function(newValue) {
+
+				if ( newValue === false ) {
+
+					element.draggable( 'disable' );
+				} else {
+
+					element.draggable( 'enable' );
+				}
+			});
 		},
 	};
 }

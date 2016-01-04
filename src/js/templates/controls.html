@@ -44,5 +44,9 @@
 		<button ng-click="resetPosition()">RESET</button>
 	</div>
 
+	<button class="slice-button accent" ng-click="toggleSliceDraggable()">
+		<span ng-show="slice.draggable">LOCK</span>
+		<span ng-show="!slice.draggable">UNLOCK</span>
+	</button>
 	<button class="slice-button accent" ng-click="updateSlice()">CLOSE</button>
 </div>
